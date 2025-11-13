@@ -31,7 +31,7 @@ password-strength-analyzer/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/password-strength-analyzer.git
+git clone git clone https://github.com/YOUR_USERNAME/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
 
@@ -122,15 +122,6 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## Optional Enhancements
-
-* Integrate a larger dictionary (like RockYou) for common password checks.
-* Add dictionary word detection to catch passwords containing real words.
-* Convert CLI to **web interface** with Flask for interactive analysis.
-* Export results to JSON for integration into other tools.
 
 ---
 
