@@ -31,7 +31,7 @@ password-strength-analyzer/
 1. Clone the repository:
 
 ```bash
-git clone git clone https://github.com/YOUR_USERNAME/password-strength-analyzer.git
+git clone git clone https://github.com/JalbujaC/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
 
