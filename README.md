@@ -19,7 +19,7 @@ password-strength-analyzer/
 
 panalyzer.py           # Main Python CLI program
 Data/
-english3.txt      # Common password / dictionary file
+   english3.txt      # Common password / dictionary file
 requirements.txt      # External dependencies
 README.md             # This file
 
