@@ -16,12 +16,12 @@ This tool is ideal for learning about password security and building practical c
 ## Project Structure
 
 password-strength-analyzer/
-│
-├── panalyzer.py           # Main Python CLI program
-├── Data/
-│   └── english3.txt      # Common password / dictionary file
-├── requirements.txt      # External dependencies
-└── README.md             # This file
+
+panalyzer.py           # Main Python CLI program
+Data/
+english3.txt      # Common password / dictionary file
+requirements.txt      # External dependencies
+README.md             # This file
 
 
 ---
@@ -31,7 +31,7 @@ password-strength-analyzer/
 1. Clone the repository:
 
 ```bash
-git clone git clone https://github.com/JalbujaC/password-strength-analyzer.git
+git clone https://github.com/JalbujaC/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
 
@@ -48,6 +48,11 @@ venv\Scripts\activate      # Windows
 ```bash
 pip install -r requirements.txt
 ```
+or
+
+```bash
+pip3 install -r requirements.txt
+```
 
 ---
 
@@ -57,6 +62,12 @@ Run the analyzer from the command line:
 
 ```bash
 python panalyzer.py --p "MySecurePassword123!"
+```
+
+or
+
+```bash
+python3 panalyzer.py --p "MySecurePassword123!"
 ```
 
 ### Example Output:
@@ -121,6 +132,12 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+or
+
+```bash
+pip3 install -r requirements.txt
 ```
 
 ---
